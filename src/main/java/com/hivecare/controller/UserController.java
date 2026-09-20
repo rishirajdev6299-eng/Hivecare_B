@@ -548,7 +548,7 @@ public class UserController {
      // =====================================================
 
      String resetLink =
-             "http://localhost:3000/reset-password?token="
+             "https://hivecare.vercel.app/reset-password?token="
                      + resetToken;
 
      try {
